@@ -1,26 +1,108 @@
-/* Color Palette
+:root{
+    --background-color-1: #d8dbe2;
+    --text-color-2: #373f51;
+    --background-color-3: #a9bcd0;
+    --background-color-4: #58a4b0;
+    --text-color-3: #1b1b1e;
+}
+ /* Palette 
 # - color 1
 # - color 2
 # - color 3
 # - color 4
-*/
+*/ 
+
+    
 
 /* Global styles 
 ------------------------------------*/
-body {
+html,body {
+    background-color: var(--color-1);
+    color: var(--text-color-2);
+    font-family: "Geist", sans-serif;
+    font-style: normal;
+    margin-left:10px;
+    margin-right:10px;
     /*background: lightblue;*/
 }
+.intro p{
+    text-align: center;
+    font-size: 1.2em;
+    color: var(--text-color-3);
+    font-weight: 500;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size:5em;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--text-color-3);
+     
+}
 
-
+h2{
+    margin: 0;
+    text-align: left;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--text-color-2);
+     
+}
+h3{
+    margin: 0;
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--text-color-3);
+    
+}
 /* Header & Footer 
 ------------------------------------*/
+header{
+    background-color: var(--background-color-3);
+    color: var(--color-2);
+    padding: 20px;
+    text-align: center;
+}
 
-
-
+footer{
+    background-color: var(--background-color-4);
+    color: var(--color-2);
+    padding: 20px;
+    text-align: center;
+    text-decoration:none;
+}
+.foot h2 {
+    text-align: center;
+    font-size: 2em;
+    color: var(--text-color-3);
+}
+.foot a {
+    color: var(--text-color-1);
+    text-decoration: none;
+}
+.foot a:hover {
+    text-decoration: underline;
+    color: var(--background-color-1);
+}
 /* Work Experience
 ------------------------------------*/
-
+.Pro section {
+    background-color: var(--color-1);
+    color: var(--color-2);
+    padding: 20px;
+    margin: 20px 0;
+}
 
 
 /* Education
 ------------------------------------*/
+.edu section {
+    background-color: var(--color-1);
+    color: var(--color-2);
+    padding: 20px;
+    margin: 20px 0;
+}
